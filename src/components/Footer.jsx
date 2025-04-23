@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Navbar = () => {
+const Footer = () => {
 
 
   return (
-    <nav className='w-full h-20 flex justify-around items-center shadow fixed bg-gray-50'>
+    <footer className='px-20 w-full h-40 flex justify-evenly  items-center bg-slate-800'>
       <div className='logo font-Inter font-extrabold text-2xl'>
         <Link to='/' className='flex items-center'>
           <h1 className='px-3.5 py-1.5 rounded-full bg-cyan-500 text-white hover:bg-teal-500'>Z</h1>
-          <h1 className='px-2'>Zahid</h1>
+          <h1 className='px-2 text-gray-200'>Zahid</h1>
         </Link>
       </div>
-      <ul className='font-Inter flex gap-10  font-semibold items-center '>
+      <ul className='font-Inter flex gap-5  font-light items-center text-gray-400'>
         <Link className='hover:text-cyan-500' to="/">
           <li>Home</li>
         </Link>
@@ -26,13 +26,14 @@ const Navbar = () => {
           <li>Project</li>
         </Link>
         <Link  to="/contact">
-          <li className='px-5 py-2 bg-cyan-500 rounded-md text-white hover:bg-teal-500'>Contact</li>
+          <li className='hover:text-cyan-500'>Contact</li>
         </Link>
       </ul>
-
-    </nav>
+      <div>
+        <span className='text-gray-400'>Copyright © {new Date().getFullYear()}. All Rights Reserved.  </span>
+      </div>
+    </footer>
   );
 };
 
-export default Navbar
-
+export default Footer
