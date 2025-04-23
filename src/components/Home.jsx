@@ -1,4 +1,7 @@
 import React from 'react'
+import Process from './Process'
+import Project from './Project'
+import WorkTogether from './WorkTogether'
 
 const Home = () => {
   return (
@@ -31,6 +34,9 @@ const Home = () => {
         <img className='w-[350px] h-[500px] rounded-2xl object-cover' src="src/assets/images/zahid.jpg" alt="" />
       </div>
     </div>
+    <Process/>
+    <Project/>
+    <WorkTogether/>
     </>
   )
 }
