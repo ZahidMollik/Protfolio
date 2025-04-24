@@ -12,15 +12,15 @@ const Home = () => {
           <div className='mt-3 px-5 py-3 w-30 bg-cyan-500 rounded-md text-white font-semibold hover:bg-teal-500'>Say Hello!</div>
         </div>
         <div className='flex gap-1'>
-          <div className='px-5 py-3 w-38 bg-cyan-100 text-center'>
+          <div className='px-5 py-3 w-38 bg-cyan-100 text-center rounded-md'>
             <h2 className='font-bold text-lg'>1 Y.</h2>
             <span className='text-xs text-gray-400'>Experience</span>
           </div>
-          <div className='px-5 py-3 w-38 bg-cyan-100  text-center'>
+          <div className='px-5 py-3 w-38 bg-cyan-100  text-center rounded-md'>
             <h2 className='font-bold text-lg'>25+</h2>
             <span className='text-xs text-gray-400'>Project Completed</span>
           </div>
-          <div className='px-5 py-3 w-38 bg-cyan-100  text-center'>
+          <div className='px-5 py-3 w-38 bg-cyan-100  text-center rounded-md'>
             <h2 className='font-bold text-lg'>19</h2>
             <span className='text-xs text-gray-400'>Happy Client</span>
           </div>

@@ -2,7 +2,6 @@ import React from 'react';
 
 const ProjectCard = ({ data }) => {
   const { title, desc, tag, image } = data;
-  console.log(title, desc, tag, image);
   
 
   return (

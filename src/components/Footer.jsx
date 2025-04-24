@@ -5,7 +5,7 @@ const Footer = () => {
 
 
   return (
-    <footer className='px-20 w-full h-40 flex justify-evenly  items-center bg-slate-800'>
+    <footer className='px-20 w-full h-50 flex justify-evenly  items-center pt-10 bg-slate-800'>
       <div className='logo font-Inter font-extrabold text-2xl'>
         <Link 
          to="nav" 
