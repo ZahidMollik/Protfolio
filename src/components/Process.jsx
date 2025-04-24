@@ -35,7 +35,7 @@ const steps = [
   }
 ];
   return (
-    <div className=' p-10 w-full h-screen bg-[#F0F1F3] flex items-center  justify-center font-Inter gap-10'>
+    <div className=' p-10 w-full h-screen bg-[#F0F1F3] flex items-center  justify-center font-Inter gap-10 process'>
       <div className='w-[40%] space-y-6'>
         <h1 className=' text-3xl font-bold'>Work Process</h1>
         <p className='text-gray-500'>The work process is structured to ensure clarity, quality, and efficiency at every stage. We begin with thorough research to understand your goals and market needs. Next, we analyze data and challenges to define the best approach. In the design phase, we craft intuitive and engaging experiences tailored to your brand. Finally, we launch with precision, ensuring your solution is robust, user-ready, and scalable. This streamlined process ensures we deliver impactful digital products that meet both user expectations and business goals.</p>
