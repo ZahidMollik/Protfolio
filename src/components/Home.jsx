@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
+import zahid from '../assets/images/zahid.jpg'
 const Home = () => {
   return (
     <div className='w-screen h-full p-15 sm:p-0 sm:h-screen  flex flex-col-reverse items-center justify-center gap-5 md:flex-row md:justify-evenly md:items-center font-Inter home'>
@@ -34,7 +35,7 @@ const Home = () => {
         </div>
       </div>
       <div >
-        <img className='w-[150px] h-[200px] md:w-[350px] md:h-[500px] rounded-2xl object-cover' src="src/assets/images/zahid.jpg" alt="" />
+        <img className='w-[150px] h-[200px] md:w-[350px] md:h-[500px] rounded-2xl object-cover' src={zahid} alt="" />
       </div>
     </div>
   )

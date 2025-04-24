@@ -1,43 +1,48 @@
 import React from 'react'
 import ProjectCard from './ProjectCard.jsx'
-
+import image1 from '../assets/images/crowd.png'
+import image2 from '../assets/images/ethereum.png'
+import image3 from '../assets/images/blockcert.png'
+import image4 from '../assets/images/vault.png'
+import image5 from '../assets/images/nft.png'
+import image6 from '../assets/images/Dao.png'
 const Project = () => {
   const projects = [
     {
       title: "ChainFund",
       desc: "A decentralized crowdfunding platform powered by smart contracts.",
       tag: "BLOCKCHAIN PROJECT",
-      image: "src/assets/images/crowd.png",
+      image: image1,
     },
     {
       title: "MetaLease",
       desc: "Blockchain-based solution for secure digital leasing and asset rentals.",
       tag: "BLOCKCHAIN PROJECT",
-      image: "src/assets/images/ethereum.png",
+      image: image2,
     },
     {
       title: "BlockCerts",
       desc: "Tamper-proof certificate issuance and verification on the blockchain.",
       tag: "BLOCKCHAIN PROJECT",
-      image: "src/assets/images/blockcert.png",
+      image: image3,
     },
     {
       title: "DeTrust Vault",
       desc: "A non-custodial DeFi wallet with built-in trustless escrow services.",
       tag: "BLOCKCHAIN PROJECT",
-      image: "src/assets/images/vault.png",
+      image: image4,
     },
     {
       title: "NFTicket",
       desc: "NFT-powered event ticketing system to prevent fraud and scalping.",
       tag: "BLOCKCHAIN PROJECT",
-      image: "src/assets/images/nft.png",
+      image: image5,
     },
     {
       title: "DAOgenda",
       desc: "A governance platform enabling transparent DAO decision-making and voting.",
       tag: "BLOCKCHAIN PROJECT",
-      image: "src/assets/images/Dao.png",
+      image: image6,
     },
   ];
   
