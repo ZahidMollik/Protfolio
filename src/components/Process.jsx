@@ -35,19 +35,19 @@ const steps = [
   }
 ];
   return (
-    <div className=' p-10 w-full h-screen bg-[#F0F1F3] flex items-center  justify-center font-Inter gap-10 process'>
-      <div className='w-[40%] space-y-6'>
-        <h1 className=' text-3xl font-bold'>Work Process</h1>
-        <p className='text-gray-500'>The work process is structured to ensure clarity, quality, and efficiency at every stage. We begin with thorough research to understand your goals and market needs. Next, we analyze data and challenges to define the best approach. In the design phase, we craft intuitive and engaging experiences tailored to your brand. Finally, we launch with precision, ensuring your solution is robust, user-ready, and scalable. This streamlined process ensures we deliver impactful digital products that meet both user expectations and business goals.</p>
+    <div className=' p-10 w-full h-full bg-[#F0F1F3] lg:flex lg:items-center  lg:justify-center font-Inter gap-10 process'>
+      <div className=' w-full text-center lg:w-[40%] space-y-6'>
+        <h1 className=' text-2xl md:text-3xl font-bold'>Work Process</h1>
+        <p className='text-xs text-gray-500'>The work process is structured to ensure clarity, quality, and efficiency at every stage. We begin with thorough research to understand your goals and market needs. Next, we analyze data and challenges to define the best approach. In the design phase, we craft intuitive and engaging experiences tailored to your brand. Finally, we launch with precision, ensuring your solution is robust, user-ready, and scalable. This streamlined process ensures we deliver impactful digital products that meet both user expectations and business goals.</p>
       </div>
-      <div className="grid grid-cols-2  gap-6 p-6 mt-20">
+      <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3  gap-6 md:p-6 mt-8 md:mt-20">
       {steps.map((step, index) => (
-        <div key={index} className="group bg-white shadow-md rounded-2xl p-6 w-56 h-50 space-y-2 hover:scale-105">
+        <div key={index} className="group bg-white shadow-md rounded-2xl p-6 w-46 h-40 md:w-56 md:h-50 space-y-2 hover:scale-105">
           <div className="bg-cyan-200 w-8 h-8 flex items-center justify-center rounded-lg text-black group-hover:bg-cyan-500 group-hover:text-white">
             {step.icon}
           </div>
           <h3 className="text-[12px] font-bold">{index + 1}. {step.title}</h3>
-          <p className="text-gray-500 text-xs">{step.desc}</p>
+          <p className="text-gray-500 text-[8px]  md:text-xs">{step.desc}</p>
         </div>
       ))}
     </div>

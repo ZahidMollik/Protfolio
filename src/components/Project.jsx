@@ -42,7 +42,7 @@ const Project = () => {
   ];
   
   return (
-    <div className='px-56 py-28 text-center project'>
+    <div className='p-3 md:p-10 lg:px-56 lg:py-28 text-center project'>
       <div className='font-Inter mb-10'>
         <h1 className='text-4xl font-bold'>Projects</h1>
         <p className="text-sm text-gray-500 mt-5">

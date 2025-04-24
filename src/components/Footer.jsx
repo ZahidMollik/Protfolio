@@ -5,21 +5,21 @@ const Footer = () => {
 
 
   return (
-    <footer className='px-20 w-full h-50 flex justify-evenly  items-center pt-10 bg-slate-800'>
-      <div className='logo font-Inter font-extrabold text-2xl'>
+    <footer className=' px-10 md:px-20 w-full h-50 flex flex-col items-center md:flex-row md:justify-evenly  md:items-center pt-10 bg-slate-800'>
+      <div className='logo font-Inter font-extrabold text-lg md:text-2xl  mt-3 md:mt-0 '>
         <Link 
          to="nav" 
          spy={true} 
          smooth={true} 
          offset={50} 
          duration={500} 
-         className='flex items-center'
+         className='flex items-center justify-center'
          >
-          <h1 className='px-3.5 py-1.5 rounded-full bg-cyan-500 text-white hover:bg-teal-500'>Z</h1>
+          <h1 className='px-2 pt-0.5 md:px-3.5 md:py-1.5 rounded-full bg-cyan-500 text-white hover:bg-teal-500'>Z</h1>
           <h1 className='px-2 text-gray-200'>Zahid</h1>
         </Link>
       </div>
-      <ul className='font-Inter flex gap-5  font-light items-center text-gray-400'>
+      <ul className='font-Inter text-xs flex flex-col items-center md:flex md:flex-row md:gap-5  font-light md:items-center text-gray-400'>
         <Link className='hover:text-cyan-500'
          to="home" 
          spy={true} 
@@ -67,7 +67,7 @@ const Footer = () => {
         </Link>
       </ul>
       <div>
-        <span className='text-gray-400'>Copyright © {new Date().getFullYear()}. All Rights Reserved.  </span>
+        <span className='text-gray-400 text-xs md:text-lg'>Copyright © {new Date().getFullYear()}. All Rights Reserved.  </span>
       </div>
     </footer>
   );
