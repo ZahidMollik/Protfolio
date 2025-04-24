@@ -51,32 +51,19 @@ const Contact = () => {
           </div>
         </div>
         <div className="md:w-1/2">
-          <p className='text-sm md:text-xl pb-5'>
+          <p className='text-sm md:text-xl pb-5 text-gray-500'>
           Have a blockchain project in mind? Fill out the form with your project details.
           </p>
-          <form className=" w-full grid grid-cols-1 gap-3 md:gap-6">
-            <div className="col-span-2">
-              <input placeholder='Name*'  type="text" id="name" name="name" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600" />
-            </div>
-
-            <div className="col-span-2">
-              <input placeholder='Email*'  type="email" id="email" name="email" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600" />
-            </div>
-
-            <div className="col-span-2">
-              <input placeholder='Location' type="text" id="location" name="location" className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600 " />
-            </div>
-            <div>
-              <input placeholder='Budget*'  type="text" id="budget" name="budget" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600" />
-            </div>
-            <div >
+          <form >
+            <input placeholder='Name*'  type="text" id="name" name="name" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600" />
+            <input placeholder='Email*'  type="email" id="email" name="email" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600" />
+            <input placeholder='Location' type="text" id="location" name="location" className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600 " />
+            <div className='flex gap-8'>
+              <input placeholder='Budget*'  type="text" id="budget" name="budget" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600 inline-block" />
               <input placeholder='Subject*'  type="text" id="subject" name="subject" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600" />
             </div>
-            <div className="col-span-2">
               <textarea  placeholder='Message*' id="message" name="message" rows="2" required className="w-full border-b-2 p-2 focus:outline-none focus:border-cyan-600"></textarea>
-            </div>
-
-            <div className="col-span-2">
+            <div className='mt-5'>
               <button type="submit" className="w-20 md:w-30 bg-cyan-600 text-white py-3 rounded-md hover:bg-cyan-700 transition-all duration-300">
                 Submit
               </button>
